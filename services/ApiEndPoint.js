@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-    baseURL: 'http://localhost:5000',
+    baseURL: 'https://notes-backend-21a9.onrender.com',
     headers :{
         "content-type" :"application/json"
     }
